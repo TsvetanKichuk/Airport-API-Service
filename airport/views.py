@@ -10,7 +10,17 @@ from airport.models import (
     Route,
     Flight,
     Order,
-    Ticket
+    Ticket,
+)
+from airport.serializers import (
+    CrewSerializer,
+    AirplaneTypeSerializer,
+    AirplaneSerializer,
+    AirportSerializer,
+    RouteSerializer,
+    FlightSerializer,
+    OrderSerializer,
+    TicketSerializer,
 )
 
 
